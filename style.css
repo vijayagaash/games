@@ -1,0 +1,102 @@
+@keyframes ani1{
+    from{top: 0%;}
+    to{top: 2%;}
+}
+@keyframes ani2{
+    from{background: none;opacity: 80%;}
+    to{background-color: aliceblue;opacity: 100%;}
+}
+body{
+    background-image: url("3d-rendering-abstract-black-white-geometric-background.jpg");
+    background-size:cover;
+    background-position: center;
+}
+.nav{
+    position: fixed;
+    left: 30%;
+    height: 5.8%;
+    width: 40%;
+    top: 2%;
+    color: aliceblue;
+    backdrop-filter: blur(20px);
+    background: none;
+    
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    animation-name: ani1;
+    animation-duration: 1s;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.cont{
+    position:fixed;
+    overflow-y: scroll;
+    width: 2000px;
+    height: 610px;
+    top: 70px;
+    border: 30px;
+    
+}
+.cont1{
+    
+    height: 1400px;
+    width: 1300px;
+    
+    
+}
+.navbtn{
+    position: relative;
+    height: 40px;
+    width: 150px;
+    background: none;
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+}
+.navbtn:hover{
+    background-color: azure;
+    color: black;
+    animation-name: ani1;
+    animation-delay: 5s;
+}
+.Popular{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:100px;
+    opacity: 60%;
+    position: absolute;
+    left: 50px;
+    color: aliceblue;
+}
+.popbtn{
+    background: none;
+    border: none;
+    position: relative;
+    top: 25%;
+    left: 5%;
+    padding: 25px;
+    border-radius: 8px;
+    opacity: 80%;
+    
+}
+.popimg{
+    height: 200px;
+    border-radius: 8px;
+    filter: grayscale(100%);
+}
+.popimg:hover{
+    filter: grayscale(0%);
+}
+.popbtn:hover{
+    
+}
+.popbtn:hover{
+    opacity: 100%;
+    background-color: aliceblue;
+    animation-name: ani2;
+    animation-duration: 1s;
+}
